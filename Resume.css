@@ -1,0 +1,28 @@
+body{
+    background-image: url("http://3.bp.blogspot.com/-64RptXPwrIU/UBIqUHQUdiI/AAAAAAAACK4/_gkem-kiUuI/s1600/light_background_image-seamless_tile.jpg");
+}
+.myimg{
+    border-radius: 50px;
+    width: 200px;
+    height: 300px;
+    width: 100%;
+    -webkit-border-radius: 50px;
+    }
+.background{
+    border: 1px solid red;
+    background-color:rgb(58, 141, 223);
+}
+.sectionTitle h3 {
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    font-style: italic bold;
+    font-size: 2em;
+    color: #9c3737;
+}
+.h1{
+    font-size: 3em;
+}
+@media print {
+    #btnEdit, #btnPrint {
+        display: none;
+    }
+}
